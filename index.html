@@ -1,0 +1,648 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CGW BioOly</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<style>
+			body, html {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			#video-background {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: -1;
+				overflow: hidden;
+			}
+			#video-background video {
+				min-width: 100%;
+				min-height: 100%;
+				width: auto;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				opacity: 0.5; /* Dim the video by reducing its opacity */
+			}
+			.overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+			}
+			.content {
+				position: relative;
+				z-index: 1;
+				text-align: center;
+				padding: 50px;
+				color: white;
+			}
+		</style>
+		
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="logo" style="width: 80px; height: 80px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+							<img src="images/logo.png" alt="logo" style="max-width: 70%; max-height: 70%;">
+						</div>											
+						
+						<div class="content">
+							<div class="inner">
+								<h1>
+									Woodson
+									<br>
+									Biology Olympiad
+								</h1>
+								<p>
+									Join WBO today to explore the wonders of biology.
+								</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">BioOly</a></li>
+								<li><a href="#work">WBO</a></li>
+								<li><a href="#about">Officers</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+					<div id="video-background">
+						<video autoplay loop muted>
+							<source src="images/bkgvid.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+						<div class="overlay"></div>
+					</div>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Biology Olympiad</h2>
+								<span class="image main"><img src="images/header1.png" alt="" /></span>
+								<p>
+									The USA Biology Olympiad (USABO) is a prestigious competition designed to stimulate intellectual curiosity and develop critical thinking skills in high school students interested in biology.
+									It consists of a series of exams, starting with an open exam for all U.S. high school biology students, followed by a semifinal exam for the top performers, and culminating in a national finals where the top students compete for a chance to represent the United States at the International Biology Olympiad (IBO). 
+									USABO clubs across the country provide students with a collaborative environment to prepare for the exams and explore the biological sciences further.
+								</p>
+								<h3>Topics</h3>
+								<p>
+									Biology Olympiad encompasses a variety of topics, split into sections with different percentages on the open exam.
+									<br><br>
+									<em>Cell Biology</em> [20%], 
+									<em>Plant Anatomy and Physiology</em> [15%], 
+									<em>Animal Anatomy and Physiology</em> [25%], 
+									<em>Ethology</em> [5%], 
+									<em>Genetics and Evolution</em> [20%], 
+									<em>Ecology</em> [10%], 
+									<em>Biosystematics</em> [5%], 
+									<em>Bioinformatics</em> [5%]
+								</p>
+								<h3>Resources</h3>
+								<div style="overflow: hidden;">
+									<img src="images/campbell12.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 150px;">
+									<p>
+										Campbell Biology 12 is an amazing place to start to study for BioOly. 
+										It is the latest edition of the Campbell Textbooks, but any relatively recent versions work well too. We recommend Campbell versions 9, 10, 11, or 12!
+										<br><br>
+										To get access to our digital drive with notes for each Campbell chapter and other textbooks, feel free to <a href="emailhere">reach out!</a> 
+										We have a textbook for each USABO topic, which can help you learn more specific knowledge outside the generic content Campbell touches on.
+									</p>
+								</div>
+								<p>
+									<a href="https://www.usabo-trc.org/sites/default/files/allfiles/USABO%20Past%20Exams_0.pdf">Previous USABO Tests</a> are always a good way to practice and gain more experience for the actual exam.
+									<br><br>
+									<a href="https://www.bozemanscience.com/">Bozeman Biology</a> has a lot of useful videos, which can help you master AP Biology too!
+									<br><br>
+									<a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63LmSVIVzy584-ZbjbJ-Y63">MIT Introduction to Biology Lectures</a> are also helpful while helping you prepare for USABO.
+								</p>
+							</article>
+
+<!-- Include Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- Work -->
+<article id="work">
+    <h2 class="major" style="margin-bottom: 2px; margin-top: 2px;">Woodson BioOly</h2>
+    <div class="image-container">
+        <img src="images/header1.png" alt="" />
+        <img src="images/header2.png" alt="" />
+        <img src="images/header3.png" alt="" />
+        <img src="images/header4.png" alt="" />
+        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <p style="margin-top: 2px; margin-bottom: 2px;">
+		Woodon Biology Club meets in Mr. Humbrecht's room (C148) every Wednesday. 
+		During meetings, we will do informative lectures on the USABO topics, as well as fun activities with prizes.
+		Members of any grade level are welcome, and all are recommended to attend!
+		<br><br>
+		Additionally, attending BioOly meetings are an amazing way to prep for AP Biology. 
+		A lot of the content we cover is based on the Campbell Biology textbook notes. 
+		To get study guides for each chapter, email us or attend our meetings; they will prepare you a lot.
+		We hope to see you soon!
+		<br><br>
+	</p>
+
+</article>
+
+<script>
+    // JavaScript for carousel effect
+    const images = document.querySelectorAll('#work .image-container img');
+    let index = 0;
+    const autoRotateInterval = 5000; // 5 seconds
+    let autoRotateTimer;
+
+    function rotateImages() {
+        images[index].style.opacity = 0;
+        index = (index + 1) % images.length;
+        images[index].style.opacity = 1;
+        autoRotateTimer = setTimeout(rotateImages, autoRotateInterval);
+    }
+
+    function showImage(imageIndex) {
+        if (imageIndex >= 0 && imageIndex < images.length) {
+            clearTimeout(autoRotateTimer);
+            index = imageIndex;
+            for (let i = 0; i < images.length; i++) {
+                images[i].style.opacity = i === index ? 1 : 0;
+            }
+            autoRotateTimer = setTimeout(rotateImages, autoRotateInterval);
+        }
+    }
+
+    function prevImage() {
+        showImage((index - 1 + images.length) % images.length);
+    }
+
+    function nextImage() {
+        showImage((index + 1) % images.length);
+    }
+
+    // Event listeners for navigation buttons
+    document.querySelector('.prev-btn').addEventListener('click', prevImage);
+    document.querySelector('.next-btn').addEventListener('click', nextImage);
+
+    // Start auto-rotation
+    rotateImages();
+</script>
+
+<style>
+    /* Ensure all images are positioned on top of each other */
+    #work .image-container {
+        position: relative;
+        width: 100%;
+        max-width: 960px;
+        height: 320px;
+        overflow: hidden;
+        margin-bottom: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #work .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Maintain aspect ratio */
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    /* Navigation buttons */
+    #work .prev-btn,
+    #work .next-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+        transition: background 0.3s;
+    }
+
+    #work .prev-btn:hover,
+    #work .next-btn:hover {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    #work .prev-btn {
+        left: 10px;
+    }
+
+    #work .next-btn {
+        right: 10px;
+    }
+
+    /* Ensure only the current image is visible */
+    #work .image-container img:nth-child(1) {
+        opacity: 1;
+    }
+
+    /* Center the icon within the button */
+    #work .prev-btn i,
+    #work .next-btn i {
+        display: block;
+        margin: auto;
+    }
+</style>
+
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Officers</h2>
+								<span class="image main"><img src="images/header2.png" alt="" /></span>
+								<p>
+									Get acquainted with the proactive Officer Team at Woodson Science Olympiad, serving as your reliable resource hub for inquiries, mentorship, and educational support. 
+									Our dedicated team is committed to facilitating your scientific growth by providing insightful guidance, accessible teaching materials, and prompt assistance whenever you encounter challenges or have questions. 
+									We're here to ensure your journey in Science Olympiad is not just enriching but also empowering, equipping you with the knowledge and skills you need to excel in scientific exploration and competition.
+								</p>
+								<div style="overflow: hidden;">
+									<img src="images/jamie.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>President, Jamie Kim</h3>
+									<p>
+										Hey guys! I'm Jamie Kim, and President of Biology Olympiad.
+										Currently, I'm in 11th grade, and have developed a deep passion for biology over the years.
+										Besides managing the club and making sure everything runs smoothly, I also do webdev, such as setting up the site, and help prepare lessons. 
+										Other things I enjoy doing outside BioOly include Science Olympiad; I'm a huge SCIOLY fanatic! 
+										I hope through BioOly, you don't just become a better competitior, but find yourself enjoying science (for those who don't already). 
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/ian.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>President, Ian Gonzalez</h3>
+									<p>
+										Hi, my name is Ian Gonzalez, and I am Co-President of Biology Olympiad. I am currently in 10th grade, and I have loved doing all things biology for several years. 
+										I am currently in 10th grade, and I have loved doing all things biology for several years. 
+										Alongside Jamie, I manage the club, create plans for meetings, and help prepare lessons. 
+										Similarly to my peers, I have cultivated experience and appreciation for biology through competing in Science Olympiad; outside of BioOly, you will most likely find me in the Science Olympiad room, the band room, or at home playing video games. :) 
+										I look forward to seeing you all compete in the upcoming season!
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/person.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>Vice President, Ivy Zhao</h3>
+									<p>
+										Coming soon!
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/person.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>Secretary, Grace Nguyen</h3>
+									<p>
+										Coming soon!
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/person.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>Treasurer, Brian Soltani</h3>
+									<p>
+										Coming soon!
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/person.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>Director of Education, Wynson Phan</h3>
+									<p>
+										Coming soon!
+									
+									</p>
+								</div>
+								<div style="overflow: hidden;">
+									<img src="images/person.jpg" alt="Campbell Biology 12" style="float: right; margin: 0 0 10px 10px; width: 200px;">
+									<h3>Director of Outreach, Elaina Wi</h3>
+									<p>
+										Coming soon!
+									</p>
+								</div>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Woodson Biology Olympiad, 2024</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
